@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formSelecionarQuestao</class>
+ <widget class="QDialog" name="formSelecionarQuestao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>79</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>385</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecione um arquivo para respodner a questão de numero:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>9</y>
+     <width>50</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>numero</string>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>42</y>
+     <width>166</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nenhum arquivo selecionado</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>40</y>
+     <width>83</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecionar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

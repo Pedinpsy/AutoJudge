@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formCadastrarQuestao</class>
+ <widget class="QWidget" name="formCadastrarQuestao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>210</y>
+     <width>281</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCadastrarQuestao">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>260</y>
+     <width>83</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Digite o enunciado da questão:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="txtEnunciado">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>641</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>62</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Entradas:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Saida:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSelecionarEntrada">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecionar entrada</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecionar saida</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblEntrada">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>300</y>
+     <width>601</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nenhuma entrada selecionada</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblSaida">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>380</y>
+     <width>631</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nenhuma saida selecionada</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Titulo da questão:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineTitulo">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>0</y>
+     <width>521</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>250</y>
+     <width>83</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ler</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>480</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cadastrar </string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>btnCadastrarQuestao</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>txtEnunciado</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>btnSelecionarEntrada</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>lblEntrada</zorder>
+  <zorder>lblSaida</zorder>
+  <zorder>label_5</zorder>
+  <zorder>lineTitulo</zorder>
+  <zorder>pushButton_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PainelDeControle</class>
+ <widget class="QMainWindow" name="PainelDeControle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PainelDeControle</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>700</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="viewMode">
+     <enum>QMdiArea::SubWindowView</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAdsdas">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionCadastrarQuestao"/>
+    <addaction name="actionResponder_Quest_o"/>
+    <addaction name="actionMostrar_Respostas"/>
+   </widget>
+   <addaction name="menuAdsdas"/>
+  </widget>
+  <action name="actionCadastrarQuestao">
+   <property name="text">
+    <string>Cadastrar Questão</string>
+   </property>
+  </action>
+  <action name="actionResponder_Quest_o">
+   <property name="text">
+    <string>Responder Questão</string>
+   </property>
+  </action>
+  <action name="actionMostrar_Respostas">
+   <property name="text">
+    <string>Mostrar Respostas</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
